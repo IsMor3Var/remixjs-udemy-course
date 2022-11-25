@@ -1,32 +1,12 @@
+import { BasicLayout } from '../layouts'
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+    <BasicLayout>
       <h1 className="text-orange-600">Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis, hic expedita corporis reprehenderit beatae placeat commodi! Eum, suscipit optio dolores vero distinctio explicabo incidunt harum iste assumenda beatae quidem.
+      </p>
+    </BasicLayout>
   );
 }
